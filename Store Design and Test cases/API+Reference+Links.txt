@@ -1,0 +1,2 @@
+https://fakestoreapi.com/docs
+https://github.com/keikaavousi/fake-store-api
