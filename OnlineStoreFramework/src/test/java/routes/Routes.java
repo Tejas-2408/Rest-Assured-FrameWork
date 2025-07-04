@@ -31,7 +31,13 @@ public class Routes {
 	
 	
 	// User
-	
+	public static final String GET_ALL_USERS = "/users";
+    public static final String GET_USER_BY_ID = "/users/{id}";
+    public static final String GET_USERS_WITH_LIMIT = "/users?limit={limit}";
+    public static final String GET_USERS_SORTED = "/users?sort={order}";
+    public static final String CREATE_USER = "/users";
+    public static final String UPDATE_USER = "/users/{id}";
+    public static final String DELETE_USER = "/users/{id}";
 	
 	// Login
 }
