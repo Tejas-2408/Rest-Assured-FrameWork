@@ -44,8 +44,7 @@ public class UserTest extends BaseClass{
 			.get(Routes.GET_USER_BY_ID)
 		
 		.then()
-			.statusCode(200)
-			.log().body();
+			.statusCode(200);
 	}
 	
 	
@@ -128,7 +127,6 @@ public class UserTest extends BaseClass{
 			.put(Routes.UPDATE_USER)
 		.then()
 			.statusCode(200)
-			.log().body()
 			.body("username",equalTo(updatedUser.getUsername()));
 	}
 	

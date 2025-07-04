@@ -13,6 +13,9 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import routes.Routes;
 import utils.ConfigReader;
 
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDate;
+
 public class BaseClass {
 	
 	ConfigReader configReader;
@@ -53,6 +56,23 @@ public class BaseClass {
 				return true;
 			}
 			
+			
+	// helper method to check the items in specific date range
+			public static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+			
+			public boolean validateCartDatesWithinRange(List<String> dateList, String startDate,String endDate) {
+				LocalDate start = LocalDate.parse(startDate,FORMATTER);
+				LocalDate end = LocalDate.parse(endDate,FORMATTER);
+				
+				for (String dateTime:dateList) {
+					LocalDate cartDate = LocalDate.parse(dateTime.substring(0,10),FORMATTER);
+					if (cartDate.isBefore(start) || cartDate.isAfter(end)) {
+						return false;
+					}
+				}
+						
+				return true;
+			}
 	
 
 }
