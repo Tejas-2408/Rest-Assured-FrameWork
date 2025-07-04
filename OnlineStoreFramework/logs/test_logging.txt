@@ -9,20 +9,456 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 200 OK
-Date: Fri, 04 Jul 2025 21:59:44 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
-X-Powered-By: Express
+Request method:	POST
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Small Copper Computer",
+    "price": 68.02,
+    "description": "Quia similique sunt aperiam velit.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "beauty"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/carts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": 1751666785325,
+    "products": [
+        {
+            "productId": 40,
+            "quantity": 8
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "lynwood.tillman",
+    "password": "ivtyfn81gqpte"
+}
+Request method:	POST
+Request URI:	https://fakestoreapi.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "lamar.steuber@hotmail.com",
+    "username": "jettie.robel",
+    "password": "o4wn02z8pfghsl3",
+    "name": {
+        "firstname": "Aleen",
+        "lastname": "Schuppe"
+    },
+    "address": {
+        "city": "Medhurstmouth",
+        "street": "Hoeger Loaf",
+        "number": 4,
+        "zipcode": "38652",
+        "geolocation": {
+            "lat": "-25.566645",
+            "lng": "-96.198933"
+        }
+    },
+    "phone": "1-322-658-7725"
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://fakestoreapi.com/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "mor_2314",
+    "password": "83r5^_"
+}
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/categories
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?startDate=2019-12-10&endDate=2020-10-10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	startDate=2019-12-10
+				endDate=2020-10-10
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?limit=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?limit=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?limit=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/category/electronics
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	category=electronics
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "ashley.ryan@hotmail.com",
+    "username": "edmund.hodkiewicz",
+    "password": "hnuaqrfdb9l",
+    "name": {
+        "firstname": "Sebrina",
+        "lastname": "Thompson"
+    },
+    "address": {
+        "city": "Schmittborough",
+        "street": "Trantow Knoll",
+        "number": 45,
+        "zipcode": "89038",
+        "geolocation": {
+            "lat": "36.367803",
+            "lng": "-6.4933602"
+        }
+    },
+    "phone": "1-052-993-9725"
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/user/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Practical Bronze Computer",
+    "price": 60.7,
+    "description": "Asperiores minima eos.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "books"
+}
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": 1751666793445,
+    "products": [
+        {
+            "productId": 46,
+            "quantity": 1
+        }
+    ]
+}
+ess
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=JBoyqcuXFonxR5CrEJ%2FYKGhdd%2BKrZDc1tU6k1Fk%2Fme9ZTnjTtBqY8S7eRZWef%2FrHlh6CW53M3Hjqhikce49zhu0d5MUt8RPP0L3x0LQByv8%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u22%2B%2F9wSvNUjoh1ZH%2BKE2wlA0IoG1%2BJO%2BFKUV71sD8KIpP%2BCpWVaJlZ5ijyfMv%2BtFMQw5myUpA8rv93uhJ3%2F51QKiEk5EWMyQR5RWKlI"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 95a1e4369b0ae5bf-MRS
+CF-RAY: 95a1ee13bffbb562-MRS
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -46,57 +482,29 @@ alt-svc: h3=":443"; ma=86400
     "__v": 0
 }
 Request method:	GET
-Request URI:	https://fakestoreapi.com/products/1
+Request URI:	https://fakestoreapi.com/products/categories
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=1
+Path params:	<none>
 Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 200 OK
-Date: Fri, 04 Jul 2025 21:59:45 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
-X-Powered-By: Express
-Cf-Cache-Status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yCIXVzi5C3gxarKTqF4T6YgS3doimbYO6JeEAefjXoRzGsCZrWFqlGg6Ayx6Vb%2B%2FQqO9EL7LcZqdfTlkfnBz1AkZEYla2tkAlHOBvkkD"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: 95a1e43dfc221221-MRS
-alt-svc: h3=":443"; ma=86400
-
-{
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
-}
 Request method:	GET
-Request URI:	https://fakestoreapi.com/users/1
+Request URI:	https://fakestoreapi.com/carts
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=1
+Path params:	<none>
 Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 04 Jul 2025 21:59:46 GMT
+Date: Fri, 04 Jul 2025 22:06:28 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -105,10 +513,10 @@ Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hh2mQRBKCz%2F1K1KvCvGqK0LXUB4qXjdaurctrTNafoLTyseUTuqAwWhSQl90g4oR%2Fm4oRJqWWFsAshXJcDYTBrsIVzqGXBWpnVc%2FetL01d8%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=US2yqZiUcD3Jwj8%2BaOj0ztEtdqp5jEpnZARJTqb6sb58EGs3Gw%2BEBlOYZ%2FIAVb8x%2BPRBg3L8OGStBXKoXVc3oktTY5v12nDDud4K%2FzmzYGg%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 95a1e4428d8be1ac-MRS
+CF-RAY: 95a1ee140c48e1dc-MRS
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -132,4 +540,2876 @@ alt-svc: h3=":443"; ma=86400
     },
     "phone": "1-570-236-7033",
     "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:28 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"98-GIZS0bF5EMoRNE1u6PMIYlYatkw"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xMaVrWhk2gDW0wjcMfl%2FMEi%2F0o8kyPPQvejzIlM7OoNtTxLRewWjLFcIH5Ba4pRqnXg9DbnlW4srQixY%2Ba1v5%2BcDLKHBh%2FSOtVP%2FU%2FHEkls%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee137a43e1c4-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MTY2Njc4OH0.mSmJO71Kj2NZSd8e9s4U-9K7ubny4ZK1SYWG_HdCIr4"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=30cQAC0LAEicAjOF7gHNDv0Kr7gUcCQnIh9EtMv2R1rESKfyg5NutX1YfgkrWwWVjR%2Fxvm8y8%2B8KGlwj%2FJM5K19VspvTALAwmSo1bnjCzuU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee167dd1e1ac-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3e-cdq81BKoKIRIQmboBVN84Vj+vkM"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IQfaTtAIKfpo6ElY7K58ajtikcnz%2BxM3LPkcXwIkVMtFPwgwE46R%2FRDDzRuchfPbqs%2Bg8oFU4B%2FgrMd8Q9SeSwTI1co4K5dDwG6FO7bi"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee183eca2c78-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    "electronics",
+    "jewelery",
+    "men's clothing",
+    "women's clothing"
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8mY9BNRP4xzkPt6Ru0gdjk6BpuKrzBEL6c5xoosBbqWCsLe8XTislQgh%2FJ5LmVqrnaldoAqUxDGz79%2BWC0rQxZZjn5aJjeemNHLB9LmEeDo%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee186a6f1a5e-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=caQwH%2FMVa5L1MNCuuh%2B7Wz2PARoRaOaNVz4yvhPXJzTEb5Or5%2BLPw4nIvF%2BuKRb8NPUu9%2Bts5gUxGSXst8lKUNEz3XKCnZ6%2BCtG9ra4doIE%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee183ebce16a-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=E7ltvHwgykR3JO3sFUXdlup2lRR9SL7dg5PPHUPkfhyEMdynqsSm3XsQr%2Fitk94Ct8FVIuPECR5yiI86pmOX7NxgN9UNOOO2RzMsNU64"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee1c1ba72ee9-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CKqZA4xdK8xsc8frlQxrvxPpuEn3lpUwt0nEp79DGlun3tQ01Djkr1tZFaFkjC1MMYiovQXQ%2B%2BiI5mNHDI3DMjoX%2BijA8JabUR8wd4e3"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee1d2bd0141f-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=g95N5%2B3fKhD7ayHoxWFFs9j37%2FchwsviidJYvJ0XLhetv5QOP%2FVHxcb9byJL0UsKNJtJWXzMBhHmvjbz7l2w3TyN1Wivsg0%2B0GrUjydei5U%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee1d3c86e279-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9TkuEz9iKEacm4EaEBddBl%2Booic%2BtI%2FG7lYefYGIFGyMd6UtKK4IyfAX9HjZfs7%2BIftSu12sqBn3%2Bb95cgzU%2BOy50wi90%2Fz3ZZ26oAUjH6w%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee208817e221-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?limit=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BvAd6k%2F6NOes3V%2FgMM3%2FSfdJileGFWVmDTEWIQZCqK6gY7X9YS2aTmXCoHBHuc1mv0tpqCpcYghi4zJdB0rFFZkYTNG4M5qcNrRRCELxpzw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee216fd0e246-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?limit=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:30 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1yFgzCECa7HMMxuSekA13BNpYoMvsKG1P24zpQG7TrmhNzt7kjs59o5mDQMCyUbCip2B24z1mnmnFHJOXXFFAcweteCb9%2Bc71Efx5cssHOo%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee21dd3ff4f6-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"5a0-Gba0VrauDi/Ho6F+Pj95nhZFN0c"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VFb2m%2FuQFR6DUbKpLRQGv9DaIKt5QFpB5MFLi6rR%2F0uRaGSFm%2Bu0TMgQFtv2T87b4KZLD38JNAuwvte5%2FYHi1DuWn8B0q4nGcL2o3AgnbIU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee241e58e1f8-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"bae-RmXgfZyGPwU9Dh6EKhIQkuNoVzY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=f1zHgjTtrRqQBLQ%2FPfc4xPssBmmmpW%2FL6VQB%2FvaVA96fMRGbN1gXyJWfgBN0K5Abov0XPrPT2nYV%2FhpTT9zGdw4KCFdTjhYRlq7sGfgWazQ%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee260d2ae6f0-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    }
+]
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jVloTLacy388a0t27TVgY7fh109598L9sh30Y1iiGiOeV72dNW9rzvr7QXwPEH3Wfb%2B6IQE8azbXtUC5GUCkLnI41qX44zfopJhVa61T"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee25e9ad8b7f-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?sort=asc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=asc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users?limit=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	limit=2
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:31 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pk7Jwr0jwGCYpzYmysVV%2BeBWIvSxU0FYa9EtwkMYpRcx1qDV5wwj7MqPMtQnYFLiICL%2Fewd1PxqrzXpp9VnSu2M%2FpOrwo9jkdvFxFfYrXGU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee27ca74e1e1-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/category/electronics
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	category=electronics
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"250-MyBA/xYM6W8nbhnGVYKtPMUhGwg"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tG%2F8RBwOUPjqwquAcNftN0c06dqsYgAdXzAd2Srn8TJ58miISzXcbCpifsfqQcvie1gaPQnCT3PQltnlDxjWEuow%2BFIaozEYtdet80g6"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee2a78ae184a-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "ashley.ryan@hotmail.com",
+    "username": "edmund.hodkiewicz",
+    "password": "hnuaqrfdb9l",
+    "name": {
+        "firstname": "Sebrina",
+        "lastname": "Thompson"
+    },
+    "address": {
+        "city": "Schmittborough",
+        "street": "Trantow Knoll",
+        "number": 45,
+        "zipcode": "89038",
+        "geolocation": {
+            "lat": "36.367803",
+            "lng": "-6.4933602"
+        }
+    },
+    "phone": "1-052-993-9725"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uJq1DTvjqNG2H9fJaSHt2S%2FcKezl4SlEa170oiJfnFKjb%2Bz8S%2BaewNdRmNjYE3U5olzryZh2Z%2F2uimJNfS%2Bi9oVllO5Cq6%2FYnAJQOX9V"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee2a78e729c2-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"e2b-QoauVlMdwav0bbI57A3Xc4mdUEs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ohWwlT%2BSTt4%2BTlaa8qOxuTJmTXSzIdv4EeuruxnitntLQT7dQENlwNejQOk7TeCxOhcyhCf6s8P%2FY2FAXDn0qJD66dtFGdtC7Rcrg5hP"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee2b78a1a39c-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products?sort=desc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	order=desc
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"139-2I4RgnzGXPooNJ1hJfPNZqSKLGo"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jYC26pCHR8rvPjchb4bM6xqpGQV71eW1viwIkxQYFkZ4OwfQG2mCydlWsh8o1tPUTg5wE9S1InWjryLfbFKnBtISupsy%2B%2BE7k2Aw%2BqrZqxo%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee2efa3ce288-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "email": "ashley.ryan@hotmail.com",
+    "username": "edmund.hodkiewicz",
+    "password": "hnuaqrfdb9l",
+    "name": {
+        "firstname": "Sebrina",
+        "lastname": "Thompson"
+    },
+    "address": {
+        "city": "Schmittborough",
+        "street": "Trantow Knoll",
+        "number": 45,
+        "zipcode": "89038",
+        "geolocation": {
+            "lat": "36.367803",
+            "lng": "-6.4933602"
+        }
+    },
+    "phone": "1-052-993-9725"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pVfI%2B%2Fgn6Fup0mOaTKFu23kYkq7J6ZYIThQcFMEpbjOLGVCelkz0Avvp0ADRQ9N9gRIDz1I3gAtwC0En5Oa9eAZZoVvieQ7L9bYiydvVvAA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee2f1c7be15a-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/user/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	userId=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"297c-kgtAqsPV+9MMR0dzy4sqhhSyR9Q"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qS96dgAIKhwbixz2oeu85nPM%2BEI%2BVqpitP%2FxR3ZVe62EM98h8N%2FZRDjBrb6R7ccoSlXTymwtFmFzdzImprkCtNhaLBPPCl14zhsttTrWE2c%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee303aa0e1cc-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Practical Bronze Computer",
+    "price": 60.7,
+    "description": "Asperiores minima eos.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "books"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0AsCpDhKfBnubhTwkaRiSBg5uG7YYjRnFW0%2F7zXCajdsjtzM5PQUvpqpg8prR%2BlB3g12rleyeHSEpDt5w%2F9u9t0esHlTV9EVtGzgtiLOGTQ%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee338e02bccd-MRS
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "date": "2020-03-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            },
+            {
+                "productId": 2,
+                "quantity": 1
+            },
+            {
+                "productId": 3,
+                "quantity": 6
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "userId": 1,
+        "date": "2020-01-02T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	PUT
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": 1,
+    "date": 1751666793445,
+    "products": [
+        {
+            "productId": 46,
+            "quantity": 1
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"97-/CGrya53s9kWkpTrvZP/5PyBeBo"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7ukjU5%2FdVWA7B%2FpZTDrQP8dbTyDjb8VMGbRaxuXt%2FjIxanupj6bGYxgNi2daGCROO1t4yXMuS%2BzbGIXeuMFF5lP78b4KE87H%2BBpJKhOkHyA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee345dbe1412-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Practical Bronze Computer",
+    "price": 60.7,
+    "description": "Asperiores minima eos.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "books"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Jul 2025 22:06:34 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"53-wzThL0f0Kh7DizNF79oTEFakHV4"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=69yDYXsFgDm1sppDs8Jqc9OvVyrioI4Q9ODS7tdhMw%2Fdf5EGPhOgkhRdZReMLQbiEOBRPKrCNK93RYeuFs0fdTtkFXRErPQR87Jjz5Cvqdc%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 95a1ee37fdade225-MRS
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": 1751666793445,
+    "products": [
+        {
+            "productId": 46,
+            "quantity": 1
+        }
+    ]
 }
