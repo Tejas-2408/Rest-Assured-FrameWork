@@ -3,21 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.CartTests">
+      <class name="testcases.LoginTests">
         <methods>
-          <include name="testGetCartWithLimit"/>
-          <include name="testGetCartsSortedAsc"/>
-          <include name="testGetAllCarts"/>
-          <include name="testGetCartById"/>
-          <include name="testUpdateCart"/>
-          <include name="testGetUserCart"/>
-          <include name="testGetCartsSortedDesc"/>
-          <include name="testGetCartInDateRange"/>
-          <include name="testCreateCart"/>
-          <include name="testDeleteCart"/>
+          <include name="testInvalidUserLogin"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.CartTests -->
+      </class> <!-- testcases.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

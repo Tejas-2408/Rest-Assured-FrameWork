@@ -10,6 +10,7 @@ import com.github.javafaker.Faker;
 import pojo.Address;
 import pojo.Cart;
 import pojo.Geolocation;
+import pojo.Login;
 import pojo.Name;
 import pojo.Product;
 import pojo.ProductCart;
@@ -81,6 +82,14 @@ public class Payload {
 		
 		return new Cart(userId,new Date(),products);
 		
+	}
+	
+	// Login
+	public static Login loginPayload() {
+		String username = faker.name().username();
+		String password = faker.internet().password();
+		
+		return new Login(username,password);
 	}
 
 }
